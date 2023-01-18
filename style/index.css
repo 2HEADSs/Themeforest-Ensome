@@ -1,3 +1,37 @@
 @import url('reset.css');
 @import url('clients-section.css');
 @import url('variables.css');
+
+body {
+    background-color: var(--clr-bg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section--full {}
+
+.section--narrow {
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px 50px;
+}
+
+.section__title,
+.section__desc {
+    max-width: 540px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section__title {
+    margin-bottom: 30px;
+    font-size: 46px;
+    color: var(--clr-black);
+}
+
+.section__desc {
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: var(--clr-grey);
+}
