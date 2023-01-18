@@ -7,7 +7,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.section--full {}
+
 
 .section--narrow {
     max-width: 1110px;
@@ -25,7 +25,7 @@ body {
 }
 
 .section__title {
-    margin-bottom:16px;
+    margin-bottom: 16px;
     font-size: 38px;
     color: var(--clr-black);
 }
@@ -34,4 +34,22 @@ body {
     margin-bottom: 50px;
     font-size: 18px;
     color: var(--clr-grey);
+}
+
+@media(min-width:1024px) {
+    .section--narrow {
+
+        padding: 100px 50px;
+    }
+
+
+    .section__title {
+        margin-bottom: 30px;
+        font-size: 46px;
+
+    }
+
+    .section__desc {
+        font-size: 20px;
+    }
 }
