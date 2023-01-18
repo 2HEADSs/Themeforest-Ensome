@@ -13,7 +13,7 @@ body {
     max-width: 1110px;
     margin-left: auto;
     margin-right: auto;
-    padding: 100px 50px;
+    padding: 48px 24px;
 }
 
 .section__title,
@@ -26,12 +26,12 @@ body {
 
 .section__title {
     margin-bottom: 30px;
-    font-size: 46px;
+    font-size: 32px;
     color: var(--clr-black);
 }
 
 .section__desc {
     margin-bottom: 50px;
-    font-size: 20px;
+    font-size: 18px;
     color: var(--clr-grey);
 }
