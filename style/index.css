@@ -3,7 +3,7 @@
 @import url('variables.css');
 
 body {
-    background-color: var(--clr-bg);
+    background-color: var(--clr-helper-3);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -25,8 +25,8 @@ body {
 }
 
 .section__title {
-    margin-bottom: 30px;
-    font-size: 32px;
+    margin-bottom:16px;
+    font-size: 38px;
     color: var(--clr-black);
 }
 

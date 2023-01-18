@@ -3,6 +3,10 @@
      background-color: var(--clr-white);
 }
 
+#clients .benefits .benefit:not(:last-child){
+    margin-bottom: 30px;
+}
+
 
 #clients .benefits .benefit .benefit__title{
     color: var(--clr-black);
