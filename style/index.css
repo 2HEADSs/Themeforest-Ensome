@@ -25,7 +25,6 @@ body {
 }
 
 .section__title {
-    /* margin-bottom: 30px; */
     margin-bottom: 16px;
     font-size: 38px;
     color: var(--clr-black);
@@ -39,30 +38,9 @@ body {
 
 
 
+@media(min-width: 1024px) {
 
-/* .section__title,
-.section__desc {
-    max-width: 540px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.section__title {
-    margin-bottom: 16px;
-    font-size: 38px;
-    color: var(--clr-black);
-}
-
-.section__desc {
-    margin-bottom: 50px;
-    font-size: 18px;
-    color: var(--clr-grey);
-}
-
-@media(min-width:1024px) {
     .section--narrow {
-
         padding: 100px 50px;
     }
 
@@ -70,10 +48,11 @@ body {
     .section__title {
         margin-bottom: 30px;
         font-size: 46px;
-
     }
 
     .section__desc {
+        margin-bottom: 50px;
         font-size: 20px;
+        color: var(--clr-grey);
     }
-} */
+}

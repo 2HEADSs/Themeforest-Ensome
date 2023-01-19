@@ -40,9 +40,7 @@
 @media(min-width: 1024px){
     
     #clients .benefits{
-        display: grid;
         gap: 30px;
-        grid-template-columns: repeat(3,1fr);
     }
     #clients .benefits .benefit{
         padding: 46px 35px;
