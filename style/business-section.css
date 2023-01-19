@@ -1,5 +1,5 @@
 #business {
-    padding: 48px 24px;
+    padding: 100px 50px;
 }
 
 #business .business__row {
@@ -13,13 +13,17 @@
     margin-right: auto;
 }
 
-#business .business__row:nth-child(even){
+#business .business__row:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+#business .business__row:not(:last-child) {
     flex-direction: row-reverse;
 }
 
 #business .content,
-#business .row__img__wrapper{
-    width: 50% ;
+#business .row__img__wrapper {
+    width: 50%;
 }
 
 #business .content .content__title {
@@ -44,14 +48,14 @@
     width: 190px;
     text-align: center;
     cursor: pointer;
-} 
+}
 
-#business .row__img__wrapper{
+#business .row__img__wrapper {
     height: 590px;
     position: relative;
 }
 
-#business .row__img__wrapper .row__img{
+#business .row__img__wrapper .row__img {
     position: absolute;
     max-width: unset;
     width: auto;
@@ -61,7 +65,30 @@
 }
 
 
-#business .business__row:nth-child(even) .row__img__wrapper .row__img{
+#business .business__row:nth-child(even) .row__img__wrapper .row__img {
     left: unset;
     right: 0px;
+}
+
+
+@media(max-width:1660px) {
+    #business .row__img__wrapper {
+        height: 500px;
+    }
+}
+
+@media(max-width:1400px) {
+    #business .row__img__wrapper {
+        height: 100%;
+        width: 50%;
+    }
+
+    #business .row__img__wrapper .row__img {
+        max-width: unset;
+        position: relative;
+        width: 100%;
+        height: auto;
+        top: unset;
+        left: unset;
+    }
 }
