@@ -7,6 +7,10 @@
     justify-content: center;
     align-items: center;
     gap: 95px;
+
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #business .content,
 #business .row__img__wrapper{
@@ -35,4 +39,15 @@
     width: 190px;
     text-align: center;
     cursor: pointer;
+} 
+#business .row__img__wrapper{
+    height: 590px;
+    position: relative;
+}
+
+#business .row__img__wrapper .row__img{
+    position: absolute;
+    max-width: unset;
+    /* width: auto;
+    height: 100%; */
 }
