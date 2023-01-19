@@ -48,6 +48,8 @@
 #business .row__img__wrapper .row__img{
     position: absolute;
     max-width: unset;
-    /* width: auto;
-    height: 100%; */
+    width: auto;
+    height: 100%;
+    top: 0px;
+    left: 0px;
 }
