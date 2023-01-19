@@ -20,6 +20,22 @@
 
 }
 
+@media(min-width:768px){
+    
+    #clients .benefits{
+        display: grid;
+        gap: 30px;
+        grid-template-columns: repeat(3,1fr);
+    }
+    #clients .benefits .benefit{
+        padding: 46px 24px;
+    }
+
+    #clients .benefits .benefit:not(:last-child){
+        margin-bottom: unset;
+    }
+}
+
 
 /* #clients .benefits .benefit {
     padding: 46px 35px;
