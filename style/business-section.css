@@ -94,6 +94,10 @@
 }
 
 @media(max-width:1024px) {
+    #business {
+        padding: 50px 36px;
+    }
+
     #business .business__row:not(:last-child) {
         margin-bottom: 60px;
     }
@@ -154,5 +158,9 @@
 
     #business .business__row:nth-child(even) {
         flex-direction: column;
+    }
+
+    #business .business__row:not(:last-child) {
+        margin-bottom: 80px;
     }
 }
