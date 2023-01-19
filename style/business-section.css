@@ -1,0 +1,33 @@
+#business {
+    padding: 48px 24px;
+}
+
+#business .business__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 95px;
+}
+
+#business .content .content__title {
+    font-size: 46px;
+    color: var(--clr-black);
+    margin-bottom: 30px;
+}
+
+#business .content .content__desc {
+    font-size: 20px;
+    color: var(--clr-grey);
+    margin-bottom: 30px;
+}
+
+#business .content .content__btn {
+    background-color: var(--clr-primary);
+    color: var(--clr-white);
+    border: none;
+    box-shadow: 0px 12px 30px rgba(24, 92, 255, 0.18);
+    border-radius: 6px;
+    padding: 15px 30px;
+    width: 190px;
+    text-align: center;
+}
