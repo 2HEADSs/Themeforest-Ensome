@@ -10,7 +10,30 @@ body {
 
 
 .section--narrow {
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px 50px;
+}
 
+.section__desc,
+.section__title {
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.section__title {
+    margin-bottom: 30px;
+    font-size: 46px;
+    color: var(--clr-black);
+}
+
+.section__desc {
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: var(--clr-grey);
 }
 
 
