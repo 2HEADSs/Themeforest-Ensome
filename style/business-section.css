@@ -15,7 +15,6 @@
 
 #business .business__row:nth-child(even) {
     flex-direction: row-reverse;
-
 }
 
 #business .business__row:not(:last-child) {
@@ -143,8 +142,17 @@
         flex-direction: column;
     }
 
-    #business .content,
-    #business .row__img__wrapper {
+    #business .content {
         width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    #business .row__img__wrapper {
+        width: 80%;
+    }
+
+    #business .business__row:nth-child(even) {
+        flex-direction: column;
     }
 }
