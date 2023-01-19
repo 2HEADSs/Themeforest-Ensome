@@ -13,10 +13,12 @@ body {
     max-width: 1110px;
     margin-left: auto;
     margin-right: auto;
-    padding: 48px 24px;
 }
 
-.section__title,
+
+
+
+/* .section__title,
 .section__desc {
     max-width: 540px;
     text-align: center;
@@ -52,4 +54,4 @@ body {
     .section__desc {
         font-size: 20px;
     }
-}
+} */
