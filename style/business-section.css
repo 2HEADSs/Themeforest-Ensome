@@ -15,10 +15,11 @@
 
 #business .business__row:nth-child(even) {
     flex-direction: row-reverse;
+
 }
 
 #business .business__row:not(:last-child) {
-    flex-direction: row-reverse;
+    margin-bottom: 30px;
 }
 
 #business .content,
@@ -90,5 +91,60 @@
         height: auto;
         top: unset;
         left: unset;
+    }
+}
+
+@media(max-width:1024px) {
+    #business .business__row:not(:last-child) {
+        margin-bottom: 60px;
+    }
+
+    #business .business__row {
+        gap: 60px;
+
+    }
+}
+
+@media(max-width:940px) {
+    #business .content .content__title {
+        font-size: 32px;
+    }
+
+    #business .content .content__desc {
+        font-size: 18px;
+    }
+}
+
+@media(max-width:768px) {
+
+    #business .business__row {
+        gap: 40px;
+    }
+
+    #business .content {
+        width: 60%;
+    }
+
+    #business .row__img__wrapper {
+        width: 40%;
+    }
+
+    #business .content .content__title {
+        font-size: 28px;
+    }
+
+    #business .content .content__desc {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:680px) {
+    #business .business__row {
+        flex-direction: column;
+    }
+
+    #business .content,
+    #business .row__img__wrapper {
+        width: 100%;
     }
 }
