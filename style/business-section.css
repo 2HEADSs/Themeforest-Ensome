@@ -8,6 +8,10 @@
     align-items: center;
     gap: 95px;
 }
+#business .content,
+#business .row__img__wrapper{
+    width: 50% ;
+}
 
 #business .content .content__title {
     font-size: 46px;
@@ -30,4 +34,5 @@
     padding: 15px 30px;
     width: 190px;
     text-align: center;
+    cursor: pointer;
 }
